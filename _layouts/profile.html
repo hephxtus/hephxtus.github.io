@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <!-- <div style="background-image: url('assets/img/Crypto%20(2).jpg');"> -->
+        {% include navigation.html %}
+        <h2 style="text-align:center">{{site.title | upcase}}</h2>
+        <div class="portfolioItem">
+            <img src="/assets/img/Crypto%20(2).jpg" alt="{{site.name}}" style="width:50%; float:left;">
+            <p>{{content}}</p>
+        </div>
+        <div class="card">
+            
+            <h1>{{site.name}}</h1>
+            <p class="title">{{site.role}}</p>
+            <p>{{site.company}}</p>
+            <div style="margin: 24px 0;">
+                <a href="https://github.com/{{github_username}}"><i class="fa fa-github"></i></a>  
+                <a href="https://www.linkedin.com/in/{{linkedin_username}}"><i class="fa fa-linkedin"></i></a> 
+            </div>
+            <a href="/about/"><button>About</button></a>
+            <a href="/about/work/"><button>Work</button></a>
+        </div>
+    <!-- </div> -->
+
+</body>
+</html>
