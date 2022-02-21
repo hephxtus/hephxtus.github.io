@@ -10,56 +10,145 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
+ .fa { color: #F4F3EE !important; }
+
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 4px 8px 0 rgba(215, 190, 105, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
   }
-.portfolioItem {
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    max-height: 400px;
+
+  .card2 {
+    // box-shadow: 0 4px 8px 0 rgba(215, 190, 105, 0.2);
+    max-width: 300px;
     margin: auto;
+    text-align: center;
     font-family: arial;
-    padding-left: 25%;
-    text-align: justify;
-    overflow: hidden;
+
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+.box {
+  outline: 1px solid #E0AFA0 ;
+  display: inline-block;
+  padding: 15px 40px;
+}
+
+/* CSS */
+button {
+  background-color: transparent;
+  align-items: center;
+  border: 2px solid #E0AFA0;
+  box-sizing: border-box;
+  color: #E0AFA0;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
 }
   
 .title {
-    color: grey;
+    color: #BCB8B1;
     font-size: 18px;
-  }
-  
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-button:hover, a:hover {
-    opacity: 0.7;
   }
 
+
+section {
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    display: table;
+}
+section div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+  
+// a {
+//     text-decoration: none;
+//     font-size: 22px;
+//     color: black;
+//   }
+  
+// button:hover, a:hover {
+//     opacity: 0.7;
+//   }
+
 body{
-    background-image: url("/assets/img/particles.gif");
+    background: #463F3A;
     background-size: cover;
     background-position: center;
+    color: #F4F3EE;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  color: #E0AFA0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 8px;
+}
+
+p {
+  color: #8A817C;
+}
+
+section{display:block}

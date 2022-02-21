@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <!-- <div style="background-image: url('assets/img/Crypto%20(2).jpg');"> -->
+        {% include navigation.html %}
+        
+        <!-- <div class="portfolioItem">
+            <img src="/assets/img/Crypto%20(2).jpg" alt="{{site.name}}" style="width:50%; float:left;">
+            <p>{{content}}</p>
+        </div> -->
+        <section id="Home">
+            <div>
+                
+                    <div class="card">
+
+                    <h2 style="text-align:center">{{site.title | upcase}}</h2>
+                    <a href="#About"><div class="box">
+                        <h1 class="logo">{{site.name}}</h1>
+                        <p class="title">{{site.role}}</p>
+                        <p>{{site.company}}</p>
+                    </div></a>
+                    <div style="margin-top:10px;">
+                        <a href="/projects/"><button>Projects</button></a>
+                        <a href="/work/"><button>Work</button></a>
+                    </div>
+                    <div style="margin-top: 10px; margin-bottom: 10px">
+                        <a href="https://github.com/{{site.github_username}}"><i class="fa fa-github"></i></a>  
+                        <a href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fa fa-linkedin"></i></a> 
+                    </div>
+                    
+                </div>
+        </div>
+        </section>
+
+        <section id="About">
+            <div>{% include about.html %}</div>
+        </section>
+
+        <section id="Contact">
+            <div>{% include contact.html %}</div>
+        </section>
+
+    <!-- </div> -->
+
+</body>
+</html>

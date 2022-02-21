@@ -1,5 +1,9 @@
 - name: Home
   link: /
+- name: Projects
+  link: /Projects
+- name: Work
+  link: /Work
 # - name: About
 #   link: /about/
 # - name: Work
