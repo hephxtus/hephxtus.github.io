@@ -1,6 +1,7 @@
 ---
 ---
 @import "main";
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -10,47 +11,18 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-
-
-.card {
-    // box-shadow: 0 4px 8px 0 rgba(215, 190, 105, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+ .card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
   }
-
-  .card2 {
-    // box-shadow: 0 4px 8px 0 rgba(215, 190, 105, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-  }
-
-.box {
-  outline: 1px solid #DBE2E9 ;
-  display: inline-block;
-  padding: 15px 40px;
-}
-
-.box:hover {
-  outline: 1px solid #E0AFA0;
-  background-color: transparent;
-}
-
 /* CSS */
 button {
   text-decoration: none;
@@ -103,10 +75,7 @@ button:active {
   }
 }
   
-.title {
-    color: #BCB8B1;
-    font-size: 18px;
-  }
+
 
 
 section {
@@ -140,16 +109,6 @@ body{
 
 html {
   scroll-behavior: smooth;
-}
-
-.logo {
-  color: #E0AFA0;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
-  font-weight: normal;
-  line-height: 32px;
-  letter-spacing: 8px;
 }
 
 p {

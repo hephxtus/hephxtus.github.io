@@ -1,6 +1,7 @@
 ---
+layout: work
 title: "Work Experience"
-permalink: /about/work/
+permalink: /work/
 my_number: 5
 ---
 # **{{ site.title | upcase  }}**

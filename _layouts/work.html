@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<style>
+    .background-alt {
+        background: #463F3A
+    }
+
+    .heading {
+        position: relative;
+        display: inline-block;
+        font-size: 2em;
+        font-weight: 300;
+        margin: 0 0 30px 0
+    }
+
+    .heading:after {
+        position: absolute;
+        content: '';
+        top: 100%;
+        height: 1px;
+        width: 50px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background: #BCB8B1
+    }
+
+    */body {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px
+    }
+
+    body.active {
+        overflow: hidden;
+        z-index: -1
+    }
+
+    .no-js #experience-timeline>div {
+        background: #E0AFA0;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #E0AFA0
+    }
+
+    .no-js #experience-timeline>div h3 {
+        font-size: 1.5em;
+        font-weight: 300;
+        color: #E0AFA0;
+        display: inline-block;
+        margin: 0
+    }
+
+    .no-js #experience-timeline>div h4 {
+        font-size: 1.2em;
+        font-weight: 300;
+        color: #BCB8B1;
+        margin: 0 0 15px 0
+    }
+
+    .no-js #experience-timeline>div p {
+        color: #F4F3EE;
+        font-size: 0.9em;
+        margin: 0
+    }
+
+    .no-js #experience-timeline:before,
+    .no-js #experience-timeline:after {
+        content: none
+    }
+
+    #experience {
+        padding: 50px 15px;
+        text-align: center;
+        border-bottom: 1px solid #BCB8B1
+    }
+
+    #experience h2 {
+        color: #E0AFA0
+    }
+
+    #experience-timeline {
+        margin: 30px auto 0 auto;
+        position: relative;
+        max-width: 1000px
+    }
+
+    #experience-timeline:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 303px;
+        right: auto;
+        height: 100%;
+        width: 3px;
+        background: #E0AFA0;
+        z-index: 0
+    }
+
+    #experience-timeline:after {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 40px;
+        background: #BCB8B1;
+        background: linear-gradient(to bottom, #E0AFA0, rgba(70,63,58, 0));
+        top: 100%;
+        left: 303px
+    }
+
+    .vtimeline-content {
+        margin-left: 350px;
+        background: #8A817C;
+        border: 1px solid #BCB8B1;
+        padding: 15px;
+        border-radius: 3px;
+        text-align: left
+    }
+
+    .vtimeline-content h3 {
+        font-style: bold;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5em;
+        font-weight: 300;
+        color: #463F3A;
+        display: inline-block;
+        margin: 0
+    }
+
+    .vtimeline-content h4 {
+        font-style: italic;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.2em;
+        font-weight: 300;
+        color: #E0AFA0;
+        margin: 0 0 15px 0
+    }
+
+    .vtimeline-content p {
+        color: #F4F3EE;
+        font-size: 0.9em;
+        margin: 0
+    }
+
+    .vtimeline-point {
+        position: relative;
+        display: block;
+        vertical-align: top;
+        margin-bottom: 30px
+    }
+
+    .vtimeline-icon {
+        position: relative;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        background: #3498db;
+        border-radius: 50%;
+        float: left;
+        z-index: 99;
+        margin-left: 280px
+    }
+
+    .vtimeline-icon i {
+        display: block;
+        font-size: 2em;
+        margin-top: 10px
+    }
+
+    .vtimeline-date {
+        width: 260px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        font-weight: 300;
+        color: #BCB8B1
+    }
+
+
+    @media only screen and (max-width: 750px) {
+
+        #experience-timeline:before,
+        #experience-timeline:after {
+            left: 23px
+        }
+
+        .vtimeline-date {
+            width: auto;
+            text-align: left;
+            position: relative;
+            margin-bottom: 15px;
+            display: block;
+            margin-left: 70px
+        }
+
+        .vtimeline-icon {
+            margin-left: 0
+        }
+
+        .vtimeline-content {
+            margin-left: 70px
+        }
+    }
+</style>
+
+<body>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div class="vtimeline-point">
+                <div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>
+                <div class="vtimeline-block"><span class="vtimeline-date">November 2021 – Date</span>
+                    <div data-date="November 2021 – Date" class="vtimeline-content">
+                        <h3>NZX</h3>
+                        <h4>Automation Engineer Intern</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
+                            volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                            eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vtimeline-point">
+                <div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>
+                <div class="vtimeline-block"><span class="vtimeline-date">February 2021 - November 2021</span>
+                    <div data-date="February 2021 - November 2021" class="vtimeline-content">
+                        <h3>eAccounts Global</h3>
+                        <h4>Junior Developer</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
+                            volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                            eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
