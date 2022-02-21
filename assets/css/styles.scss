@@ -10,7 +10,7 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
- .fa { color: #F4F3EE !important; }
+
 
 .card {
     // box-shadow: 0 4px 8px 0 rgba(215, 190, 105, 0.2);
@@ -41,16 +41,22 @@
   }
 
 .box {
-  outline: 1px solid #E0AFA0 ;
+  outline: 1px solid #DBE2E9 ;
   display: inline-block;
   padding: 15px 40px;
 }
 
+.box:hover {
+  outline: 1px solid #E0AFA0;
+  background-color: transparent;
+}
+
 /* CSS */
 button {
+  text-decoration: none;
   background-color: transparent;
   align-items: center;
-  border: 2px solid #E0AFA0;
+  border: 2px solid #DBE2E9;
   box-sizing: border-box;
   color: #E0AFA0;
   cursor: pointer;
@@ -76,17 +82,16 @@ button {
   
 }
 
-.button:focus {
+button:focus {
   color: #171e29;
 }
 
-.button:hover {
-  border-color: #06f;
-  color: #06f;
+button:hover {
+  border-color: #E0AFA0;
   fill: #06f;
 }
 
-.button:active {
+button:active {
   border-color: #06f;
   color: #06f;
   fill: #06f;
@@ -116,11 +121,11 @@ section div {
     text-align: center;
 }
   
-// a {
-//     text-decoration: none;
-//     font-size: 22px;
-//     color: black;
-//   }
+a {
+    text-decoration: none;
+    // font-size: 22px;
+    color: black;
+  }
   
 // button:hover, a:hover {
 //     opacity: 0.7;
@@ -149,6 +154,20 @@ html {
 
 p {
   color: #8A817C;
+}
+
+
+i { color: #F4F3EE; }
+i:hover {
+  color: #E0AFA0;
+}
+
+h1:hover {
+  color: #E0AFA0;
+}
+
+h2:hover {
+  color: #E0AFA0;
 }
 
 section{display:block}

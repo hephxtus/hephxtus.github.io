@@ -2,6 +2,32 @@
 <html>
 <head>
 <link rel="stylesheet" href="/assets/css/styles.css">
+<style>
+    .button-left-container {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+
+    position: absolute;
+    top: 47%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .button-right-container {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+
+    position: absolute;
+    top: 47%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+  }
+</style>
 </head>
 <body>
     <!-- <div style="background-image: url('assets/img/Crypto%20(2).jpg');"> -->
@@ -13,8 +39,15 @@
         </div> -->
         <section id="Home">
             <div>
-                
-                    <div class="card">
+                <div class="button-left-container">
+                <a href="/projects/"><button>Projects</button></a>
+                </div>
+
+                <div class="button-right-container">
+                    <a href="/work/"><button>Work</button></a>
+                </div>
+
+                <div class="card">
 
                     <h2 style="text-align:center">{{site.title | upcase}}</h2>
                     <a href="#About"><div class="box">
@@ -22,12 +55,8 @@
                         <p class="title">{{site.role}}</p>
                         <p>{{site.company}}</p>
                     </div></a>
-                    <div style="margin-top:10px;">
-                        <a href="/projects/"><button>Projects</button></a>
-                        <a href="/work/"><button>Work</button></a>
-                    </div>
-                    <div style="margin-top: 10px; margin-bottom: 10px">
-                        <a href="https://github.com/{{site.github_username}}"><i class="fa fa-github"></i></a>  
+                    <div style="margin-top: 20px; text-align: center;">
+                        <a href="https://github.com/{{site.github_username}}"><i class="fa fa-github fa-lg"></i></a>  
                         <a href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fa fa-linkedin"></i></a> 
                     </div>
                     
