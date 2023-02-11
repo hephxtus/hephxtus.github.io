@@ -5,5 +5,5 @@ export default function ScrollToTop() {
         window.scrollTo(0, 0)
     }
 
-    return <a className="ScrollToTop" onClick={onClick}>↑</a>
+    return <button className="ScrollToTop" onClick={onClick}>↑</button>
 }

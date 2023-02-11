@@ -1,5 +1,4 @@
 import React, {useCallback} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import "./css/styles.css"
 import ScrollToTop from "./ScrollToTop";
@@ -61,7 +60,7 @@ function About() {
       University of Wellington, specializing in Artificial Intelligence and Machine Learning.
       I graduated in 2022 with a Bachelor of Engineering with Honours, first class. I am currently working as a
       Software Engineer at
-      <a href="https://www.nzx.com/" target="_blank">NZX</a> implementing automated testing and continuous
+      <a href="https://www.nzx.com/" target="_blank" rel="noreferrer">NZX</a> implementing automated testing and continuous
       integration, as well as re-architecting many of the company's legacy systems.
     </p>
     <p>
@@ -140,7 +139,7 @@ function Projects() {
         <p className="project-details">
           Community Detection in Social Networks using Genetic Algorithms
         </p>
-        <a href="reports/joe_489_proj-1.pdf" target="_blank"
+        <a href="reports/joe_489_proj-1.pdf" target="_blank" rel="noreferrer"
            download="Community Detection in Social Networks using Genetic Algorithms" className="project-link">Check
           it Out</a>
       </div>
@@ -158,7 +157,7 @@ function Projects() {
           Regression models to predict the price of a house.
         </p>
         <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning"
-           target="_blank" className="project-link">Check it Out</a>
+           target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
       <div className="project-container project-card">
         <img
@@ -173,7 +172,7 @@ function Projects() {
           ratione vel inventore labore commodi modi quos culpa aut saepe!
           Alias!
         </p>
-        <a href="#" target="_blank" className="project-link">Check it Out</a>
+        <a href="ps://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
     </div>
   </section>;
@@ -215,24 +214,24 @@ function Work() {
   </section>;
 }
 
-function Testimonials() {
-  return null;
-}
+// function Testimonials() {
+//   return null;
+// }
 
 function Socials() {
   return <div className="socials">
-    <a href="https://www.linkedin.com/in/joe-hodges" target="_blank"
+    <a href="https://www.linkedin.com/in/joe-hodges" target="_blank" rel="noreferrer"
     ><img
         src="icons/icons8-linkedin-circled.gif"
         alt="Linkedin"
         loading="lazy"
         className="socicon"
     /></a>
-    <a href="https://github.com/hephxtus" target="_blank"
+    <a href="https://github.com/hephxtus" target="_blank" rel="noreferrer"
     ><img src="icons/icons8-github.gif" alt="Github" className="socicon"
     /></a>
 
-    <a href="mailto:joe.hodges2000@gmail.com" target="_blank">
+    <a href="mailto:joe.hodges2000@gmail.com" target="_blank" rel="noreferrer">
       <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon"/>
     </a>
 
