@@ -20,6 +20,7 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+
 /* Variables end */
 
 html {
@@ -35,7 +36,7 @@ html {
   /* border: 2px solid red; */
 }
 
-body > * {
+body>* {
   position: relative;
   z-index: 0;
 }
@@ -86,6 +87,7 @@ nav a {
   color: var(--primary-color);
   transition: var(--transition);
 }
+
 nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
@@ -115,6 +117,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
+
 /* Navbar ends */
 
 /* Hero section */
@@ -149,6 +152,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+
 /* Hero section ends */
 
 /* More about */
@@ -168,6 +172,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+
 /* More about ends */
 
 /* Skills section */
@@ -190,6 +195,7 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
+
 /* Skills section ends */
 
 /* Projects section */
@@ -209,6 +215,11 @@ nav ul li {
   align-items: center;
   justify-content: center;
 
+}
+
+.projects-container .project-card a {
+  color: var(--primary-color);
+  transition: var(--transition);
 }
 
 .projects-title {
@@ -298,6 +309,7 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
 /* Contacts section ends */
 
 /* Social buttons */
@@ -313,6 +325,7 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+
 /* Social button ends */
 
 /* Scroll to top button */
@@ -327,6 +340,7 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+
 /* Scroll to top button ends */
 
 /* Footer section */
@@ -336,6 +350,7 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
+
 /* Footer section ends */
 
 /* General (utilities) */
@@ -349,7 +364,8 @@ footer {
   transition: background-color .1s, box-shadow .1s, transform .1s;
 }
 
-.icon-card:hover, .icon-card:active {
+.icon-card:hover,
+.icon-card:active {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 3px 10px var(--primary-shadow);
   transform: translateY(-2px);
@@ -368,6 +384,7 @@ footer {
   nav {
     padding: 1.5rem 1rem;
   }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
@@ -461,6 +478,7 @@ footer {
 /* testimonials */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 .more-about figure.snip1390 {
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
@@ -478,6 +496,7 @@ footer {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .more-about figure.snip1390 *,
 .more-about figure.snip1390 *:before,
 .more-about figure.snip1390 *:after {
@@ -486,24 +505,30 @@ footer {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
+
 .more-about figure.snip1390 figcaption {
   width: 100%;
 }
+
 .more-about figure.snip1390 h2,
 .more-about figure.snip1390 h4,
 .more-about figure.snip1390 blockquote {
   margin: 0;
 }
+
 .more-about figure.snip1390 h2,
 .more-about figure.snip1390 h4 {
   font-weight: 300;
 }
+
 .more-about figure.snip1390 h2 {
   color: #ffffff;
 }
+
 .more-about figure.snip1390 h4 {
   color: #a6a6a6;
 }
+
 .more-about figure.snip1390 blockquote {
   font-size: 1em;
   padding: 45px 20px 40px 50px;
@@ -514,6 +539,7 @@ footer {
   text-align: left;
   position: relative;
 }
+
 .more-about figure.snip1390 blockquote:before {
   font-family: 'FontAwesome';
   content: "\201C";
@@ -524,6 +550,7 @@ footer {
   top: 0px;
   left: 20px;
 }
+
 .more-about figure.snip1390 .profile {
   width: 100px;
   border-radius: 50%;
@@ -532,4 +559,3 @@ footer {
   margin-bottom: 10px;
   border: solid 5px #A6A57A;
 }
-

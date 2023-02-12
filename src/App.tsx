@@ -1,7 +1,9 @@
-import React, {useCallback} from 'react';
+import React, { useCallback } from 'react';
 import './App.css';
 import "./css/styles.css"
 import ScrollToTop from "./ScrollToTop";
+
+// import { IonIcon } from "react-ion-icon";
 
 import Particles from 'react-particles';
 import particlesConfig from './config/configParticles.json';
@@ -19,11 +21,10 @@ function Navbar() {
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
           <li><a href="#work">Work</a></li>
         </ul>
         <button className="burger-menu" id="burger-menu">
-          {/*<ion-icon className="bars" name="menu-outline"></ion-icon>*/}
+          {/* <IonIcon className="bars" name="menu-outline"></IonIcon> */}
         </button>
       </div>
     </nav>
@@ -33,10 +34,10 @@ function Navbar() {
 function Hero() {
   return <section className="hero" id="about">
     <img
-        src="images/nerd-svgrepo-com.svg"
-        alt="joseph-hodges"
-        loading="lazy"
-        className="hero-img"
+      src="images/nerd-svgrepo-com.svg"
+      alt="joseph-hodges"
+      loading="lazy"
+      className="hero-img"
     />
     <div className="bio animate__animated animate__shakeX">
       <h2 className="bio-title">About Me</h2>
@@ -60,7 +61,7 @@ function About() {
       University of Wellington, specializing in Artificial Intelligence and Machine Learning.
       I graduated in 2022 with a Bachelor of Engineering with Honours, first class. I am currently working as a
       Software Engineer at
-      <a href="https://www.nzx.com/" target="_blank" rel="noreferrer">NZX</a> implementing automated testing and continuous
+      <a href="https://www.nzx.com/" target="_blank" rel="noreferrer"> NZX</a> implementing automated testing and continuous
       integration, as well as re-architecting many of the company's legacy systems.
     </p>
     <p>
@@ -80,45 +81,57 @@ function Skills() {
 
     <div className="skills-wrapper">
       <div className="first-set animate__animated animate__pulse">
-        <img
+        <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+          <img
             src="icons/icons8-python.svg"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
-        <img
+          />
+        </a>
+        <a href="https:/www.redhat.com/" target="_blank" rel="noreferrer">
+          <img
             src="icons/icons8-red-hat-96.png"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
-        <img
+          />
+        </a>
+        <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
+          <img
             src="icons/Scikit_learn_logo_small.svg"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
+          />
+        </a>
       </div>
 
       <div className="second-set animate__animated animate__pulse">
-        <img
+        <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+          <img
             src="icons/icons8-linux-96.png"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
-        <img
+          />
+        </a>
+        <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+          <img
             src="icons/icons8-docker-96.png"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
-        <img
+          />
+        </a>
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+          <img
             src="icons/icons8-git-96.png"
             alt=""
             loading="lazy"
             className="icon icon-card"
-        />
+          />
+        </a>
       </div>
     </div>
   </section>;
@@ -129,53 +142,60 @@ function Projects() {
     <h2 className="projects-title">Some of my Recent Projects</h2>
     <div className="projects-container">
       <div className="project-container project-card">
-        <img
+        <a href="https://github.com/hephxtus/ga-community-detection-with-DEAP" target="_blank" rel="noreferrer" >
+
+          <img
             src="images/Community_Detection.jpg"
-            alt="expense-tracker"
+            alt="Community"
             loading="lazy"
             className="project-pic"
-        />
-        <h3 className="project-title">Community Detection</h3>
-        <p className="project-details">
-          Community Detection in Social Networks using Genetic Algorithms
-        </p>
-        <a href="reports/joe_489_proj-1.pdf" target="_blank" rel="noreferrer"
-           download="Community Detection in Social Networks using Genetic Algorithms" className="project-link">Check
+          />
+          <h3 className="project-title">Community Detection</h3>
+          <p className="project-details">
+            This was my thesis project in which I devised a novel approach to Community Detection in Social Networks with Evolutionary Computing using a hyprid heuristic based on centrality to speed up local search.
+          </p>
+        </a>
+
+        <a href="reports/CD_in_SN_using_EC.pdf" target="_blank" rel="noreferrer"
+          className="project-link">Check
           it Out</a>
       </div>
       <div className="project-container project-card">
-        <img
+        <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning" target="_blank" rel="noreferrer">
+          <img
             src="images/Neural Network.webp"
             alt="EDA, Data Manipulation, and Machine Learning"
             loading="lazy"
             className="project-pic"
-        />
-        <h3 className="project-title">EDA, Data Manipulation, and Machine Learning</h3>
-        <p className="project-details">
-          The goal of this project was to gain experience with the data mining process and exploratory data analysis
-          (EDA) techniques. This was my first experience with machine learning, and I used Classification and
-          Regression models to predict the price of a house.
-        </p>
+          />
+          <h3 className="project-title">Exploratory Data Analysis and Manipulation</h3>
+          <p className="project-details">
+            The goal of this project was to gain experience with the data mining process and exploratory data analysis
+            (EDA) techniques. This was my first experience with machine learning, and I used Classification and
+            Regression models to predict the price of a house.
+          </p>
+        </a>
         <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning"
-           target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+          target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
       <div className="project-container project-card">
-        <img
-            src="images/Computer_Vision.jpg"
-            alt="greeny-earth"
+        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer">
+          <img
+            src="images/fruit.png"
+            alt="fruit classification"
             loading="lazy"
             className="project-pic"
-        />
-        <h3 className="project-title">Computer Vision</h3>
-        <p className="project-details">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-          ratione vel inventore labore commodi modi quos culpa aut saepe!
-          Alias!
-        </p>
-        <a href="ps://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+          />
+          <h3 className="project-title">Image Classification using Convolutional Neural Nets</h3>
+          <p className="project-details">
+            For this project I investigated using CNN against a standard Multi layered Neural Network to classify images of fruit. This involved Data preprocessing and augmentation, along with model selection, training, and hyperparamter tuning.
+            I extended this project using transfer learning to achieve a high level of accuracy in the classification process.
+          </p>
+        </a>
+        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
     </div>
-  </section>;
+  </section >;
 }
 
 function Work() {
@@ -184,10 +204,10 @@ function Work() {
     <div className="projects-container">
       <div className="project-container project-card">
         <img
-            src="images/qontro.jpg"
-            alt="QONTRO"
-            loading="lazy"
-            className="project-pic"
+          src="images/qontro.jpg"
+          alt="QONTRO"
+          loading="lazy"
+          className="project-pic"
         />
         <h3 className="project-title">Qontro</h3>
         <p className="project-details">
@@ -197,16 +217,17 @@ function Work() {
       </div>
       <div className="project-container project-card">
         <img
-            src="images/NZX.png"
-            alt="NZX"
-            loading="lazy"
-            className="project-pic"
+          src="images/NZX.png"
+          alt="NZX"
+          loading="lazy"
+          className="project-pic"
         />
         <h3 className="project-title">NZX</h3>
         <p className="project-details">
-          The goal of this project was to gain experience with the data mining process and exploratory data analysis
-          (EDA) techniques. This was my first experience with machine learning, and I used Classification and
-          Regression models to predict the price of a house.
+          Over the last year, moving from an Intern role to a Part time role and currently in my capacity as a full time Software Engineer, I have worked on many different projects across their distributed systems, a few of these include:
+          1. Development and Deployment of an Automated Testing Framework across their environments
+          2. Upgrading and rearchitecting of many of their legacy systems
+          3. Automated Deployment pipelines using Ansible and Github Actions.
         </p>
         <h4 className="project-title">Software Engineer</h4>
       </div>
@@ -226,13 +247,13 @@ function Socials() {
         alt="Linkedin"
         loading="lazy"
         className="socicon"
-    /></a>
+      /></a>
     <a href="https://github.com/hephxtus" target="_blank" rel="noreferrer"
     ><img src="icons/icons8-github.gif" alt="Github" className="socicon"
-    /></a>
+      /></a>
 
     <a href="mailto:joe.hodges2000@gmail.com" target="_blank" rel="noreferrer">
-      <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon"/>
+      <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon" />
     </a>
 
   </div>;
@@ -257,20 +278,20 @@ export default function App() {
     <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
       <div style={{ position: 'absolute', zIndex: -1 }}>
         <Particles height="100vh" width="100vw"
-                   init={particlesInit}
-                   loaded={particlesLoaded} options={particlesConfig as any}  />
+          init={particlesInit}
+          loaded={particlesLoaded} options={particlesConfig as any} />
       </div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Work/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Work />
 
-      <Socials/>
+      <Socials />
 
 
-      <ScrollToTop/>
+      <ScrollToTop />
       {/*<Testimonials/>*/}
     </div>
   )
