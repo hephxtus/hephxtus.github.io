@@ -213,28 +213,26 @@ function Projects() {
         <a href="reports/EA_for_Optimization_CV_and_ML.pdf" target="_blank" rel="noreferrer"
           className="project-link">Check it Out</a>
       </div>
-      {/* <div className="project-container project-card">
-        <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning" target="_blank" rel="noreferrer">
+      <div className="project-container project-card">
+        <a href="https://github.com/hephxtus/Metasploit-Cybersecurity-project" target="_blank" rel="noreferrer">
           <img
-            src="images/Neural Network.webp"
-            alt="EDA, Data Manipulation, and Machine Learning"
+            src="images/cyber-nuke.jpg"
+            alt="Tactical Nuke"
             loading="lazy"
             className="project-pic"
           />
-          <h3 className="project-title">Exploratory Data Analysis and Manipulation</h3>
+          <h3 className="project-title">Exploiting Windows 7 machines with Metasploit</h3>
           <p className="project-details">
-            The goal of this project was to gain experience with the data mining process and exploratory data analysis
-            (EDA) techniques. This was my first experience with machine learning, and I used Classification and
-            Regression models to predict the price of a house.
+            This project was my experimentation with Metasploit, a penetration testing framework. The Goal of the project was to gain remote access to a Windows 7 machine using scanning and exploitation techniques. I then used this to find all windows machines and perform a vulnerability anaysis, comparing with entries in the metasploit database to find the most effective exploit for each machine. This is then used to perform RCE on all target machines and allow the attacker to interact with elevated priveledges.
           </p>
         </a>
-        <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning"
+        <a href="reports/Tactical_Nuke.pdf"
           target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
-      <div className="project-container project-card">
+      {/* <div className="project-container project-card">
         <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer">
           <img
-            src="images/fruit.png"
+            src="images/fruit.png"s
             alt="fruit classification"
             loading="lazy"
             className="project-pic"
