@@ -195,6 +195,59 @@ function Projects() {
         <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
     </div>
+    <div className="projects-container">
+      <div className="project-container project-card">
+        <a href="https://github.com/hephxtus/Evolutionary-Algorithms-for-Optimization-Computer-Vision-and-Machine-Learning" target="_blank" rel="noreferrer" >
+
+          <img
+            src="images/genetic_landscape.webp"
+            alt="AI Generated Evolutionary Landscape"
+            loading="lazy"
+            className="project-pic"
+          />
+          <h3 className="project-title">Evolutionary Algorithms for Optimization, Computer Vision, and Machine Learning</h3>
+          <p className="project-details">
+          The overall goal of this project was to review and practise evolutionary computation technologies for optimization, computer vision and machine learning.</p>
+        </a>
+
+        <a href="reports/EA_for_Optimization_CV_and_ML.pdf" target="_blank" rel="noreferrer"
+          className="project-link">Check it Out</a>
+      </div>
+      {/* <div className="project-container project-card">
+        <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning" target="_blank" rel="noreferrer">
+          <img
+            src="images/Neural Network.webp"
+            alt="EDA, Data Manipulation, and Machine Learning"
+            loading="lazy"
+            className="project-pic"
+          />
+          <h3 className="project-title">Exploratory Data Analysis and Manipulation</h3>
+          <p className="project-details">
+            The goal of this project was to gain experience with the data mining process and exploratory data analysis
+            (EDA) techniques. This was my first experience with machine learning, and I used Classification and
+            Regression models to predict the price of a house.
+          </p>
+        </a>
+        <a href="https://github.com/hephxtus/EDA-Data-Manipulation-and-Modelling-for-Machine-Learning"
+          target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+      </div>
+      <div className="project-container project-card">
+        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer">
+          <img
+            src="images/fruit.png"
+            alt="fruit classification"
+            loading="lazy"
+            className="project-pic"
+          />
+          <h3 className="project-title">Image Classification using Convolutional Neural Nets</h3>
+          <p className="project-details">
+            For this project I investigated using CNN against a standard Multi layered Neural Network to classify images of fruit. This involved Data preprocessing and augmentation, along with model selection, training, and hyperparamter tuning.
+            I extended this project using transfer learning to achieve a high level of accuracy in the classification process.
+          </p>
+        </a>
+        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+      </div> */}
+    </div>
   </section >;
 }
 
