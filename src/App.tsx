@@ -223,28 +223,27 @@ function Projects() {
           />
           <h3 className="project-title">Exploiting Windows 7 machines with Metasploit</h3>
           <p className="project-details">
-            This project was my experimentation with Metasploit, a penetration testing framework. The Goal of the project was to gain remote access to a Windows 7 machine using scanning and exploitation techniques. I then used this to find all windows machines and perform a vulnerability anaysis, comparing with entries in the metasploit database to find the most effective exploit for each machine. This is then used to perform RCE on all target machines and allow the attacker to interact with elevated priveledges.
+            The Goal of the project was to gain remote access to a Windows 7 machine using scanning and exploitation techniques. I then used this to find all Windows machines on the network find associated vulnerabilities and exploits in the metasploit database. This is then used to perform RCE and allow the attacker to interact with each target machine with elevated priveledges.
           </p>
         </a>
         <a href="reports/Tactical_Nuke.pdf"
           target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
-      {/* <div className="project-container project-card">
+      <div className="project-container project-card">
         <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer">
           <img
-            src="images/fruit.png"s
-            alt="fruit classification"
+            src="images/biological robot.png"
+            alt="Biological Computer"
             loading="lazy"
             className="project-pic"
           />
-          <h3 className="project-title">Image Classification using Convolutional Neural Nets</h3>
+          <h3 className="project-title">Evolutionary Computing for Optimization Problems</h3>
           <p className="project-details">
-            For this project I investigated using CNN against a standard Multi layered Neural Network to classify images of fruit. This involved Data preprocessing and augmentation, along with model selection, training, and hyperparamter tuning.
-            I extended this project using transfer learning to achieve a high level of accuracy in the classification process.
+            This project was my first venture into Evolutionary Computing. I used Genetic Algorithms and Genetic Programming to solve a number of optimization problems, as well as the ideas of Non-dominated sorting to solve a multi-objective optimization problem and Particle Swarm Optimization to solve a constrained optimization problem.
           </p>
         </a>
-        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
-      </div> */}
+        <a href="reports/Evolutionary_Computing_for_Optimization_Problems.pdf" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+      </div>
     </div>
   </section >;
 }
