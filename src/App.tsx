@@ -252,6 +252,7 @@ function Work() {
   return <section className="projects" id="work">
     <h2 className="projects-title">Recent Work Experience</h2>
     <div className="projects-container">
+      <a href="https://qontro.com/" target="_blank" rel="noreferrer">
       <div className="project-container project-card">
         <img
           src="images/qontro.jpg"
@@ -265,6 +266,8 @@ function Work() {
         </p>
         <h4 className="project-title">Junior Software Developer</h4>
       </div>
+        </a>
+        <a href="https://www.nzx.com/" target="_blank" rel="noreferrer">
       <div className="project-container project-card">
         <img
           src="images/NZX.png"
@@ -281,6 +284,7 @@ function Work() {
         </p>
         <h4 className="project-title">Software Engineer</h4>
       </div>
+        </a>
     </div>
   </section>;
 }
