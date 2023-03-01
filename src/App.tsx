@@ -312,6 +312,7 @@ function Socials() {
 
     <a href="reports/Joes_CV_2022_extended.pdf" target="_blank" rel="noreferrer">
       <img src="icons/icons8-life-cycle.gif" alt="CV" className="socicon" />
+    </a>
 
   </div>;
 
