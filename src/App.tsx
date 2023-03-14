@@ -310,7 +310,7 @@ function Socials() {
       <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon" />
     </a>
 
-    <a href="reports/Joe_Hodges_2023" target="_blank" rel="noreferrer">
+    <a href="reports/Joe_Hodges_2023.pdf" target="_blank" rel="noreferrer">
       <img src="icons/icons8-life-cycle.gif" alt="CV" className="socicon" />
     </a>
 
