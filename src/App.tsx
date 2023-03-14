@@ -230,7 +230,7 @@ function Projects() {
           target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
       </div>
       <div className="project-container project-card">
-        <a href="reports/CNN_for_Image_Classification_of_Fruit.pdf" target="_blank" rel="noreferrer">
+        <a href="https://github.com/hephxtus/Evolutionary-Computing-for-Optimization-Problems" target="_blank" rel="noreferrer">
           <img
             src="images/biological robot.png"
             alt="Biological Computer"
