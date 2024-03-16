@@ -277,12 +277,28 @@ function Work() {
         />
         <h3 className="project-title">NZX</h3>
         <p className="project-details">
-          Over the last year, moving from an Intern role to a Part time role and currently in my capacity as a full time Software Engineer, I have worked on many different projects across their distributed systems, a few of these include:
-          1. Development and Deployment of an Automated Testing Framework across their environments
-          2. Upgrading and rearchitecting of many of their legacy systems
+        Starting in 2021 as an Intern and working my way up to permanent Software Engineer, I was involved in many different projects across their distributed systems, a few of these include: <br />
+          1. Development and Deployment of an Automated Testing Framework across their environments <br />
+          2. Upgrading and rearchitecting of many of their legacy systems <br />
           3. Automated Deployment pipelines using Ansible and Github Actions.
         </p>
         <h4 className="project-title">Software Engineer</h4>
+      </div>
+        </a>
+        <a href="https://www.stayinfront.com/" target="_blank" rel="noreferrer">
+      <div className="project-container project-card">
+        <img
+          src="images/Stayinfront.jpg"
+          alt="Stayinfront"
+          loading="lazy"
+          className="project-pic"
+        />
+        <h3 className="project-title">StayInFront</h3>
+        <p className="project-details">
+        Joining the R&D department as a Machine Learning Engineer in mid 2023 I have worked across all AI/ML projects relating to Image Recognition with CNN's to more traditional ML methods for clustering and decision making on large datasets. <br/>
+        As a member of the R&D team it was my job to research the feasibility of a project, possible approaches, and then work with the Development team implement the solution and hand over to QA a fully documented product. 
+        </p>
+        <h4 className="project-title">Machine Learning Engineer</h4>
       </div>
         </a>
     </div>
