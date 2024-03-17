@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar__logo">
         <h1><a href="index.html">Joseph Hodges</a></h1>
-        <h4> Software Engineer</h4>
+        <h4> Software Engineer | Ai/ML Engineer </h4>
       </div>
       <div className="navbar__menu">
         <ul>
@@ -326,7 +326,7 @@ function Socials() {
       <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon" />
     </a>
 
-    <a href="reports/Joe_Hodges_2023.pdf" target="_blank" rel="noreferrer">
+    <a href="reports/Joe_Hodges_2024.pdf" target="_blank" rel="noreferrer">
       <img src="icons/icons8-life-cycle.gif" alt="CV" className="socicon" />
     </a>
 
