@@ -54,7 +54,7 @@ function About() {
     <p>
       I aim to create software that is easy to use, efficient, and
       maintainable. I am passionate about learning new technologies and
-      applying them to real world problems.
+      applying them to real-world problems.
     </p>
     <p>
       Graduating in 2023 from Victoria University of Wellington with A Bachelor of Honours in Software Engineering, first class and specializing in Artificial Intelligence and Machine Learning, I am currently working as 
@@ -62,7 +62,7 @@ function About() {
       such as Packaging Recognition and Sales optimisation. 
     </p>
     <p>
-      While recently graduated, I am far from finished learning, and try to incorporate this into my projects outside of work, for example I am currently working on a project that involves Natural Language Processing, Schedulin and Cloud Based technologies.
+      While recently graduated, I am far from finished learning and aim to incorporate new and interesting technologies into my projects outside of work, for example, I am currently working on a project that involves Natural Language Processing, Scheduling, and Cloud Based technologies.
       I am also working on publishing my paper on the use of Evolutionary Machine Learning in the field of Community Detection.
     </p>
 
