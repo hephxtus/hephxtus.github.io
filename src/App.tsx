@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar__logo">
         <h1><a href="index.html">Joseph Hodges</a></h1>
-        <h4> Software Engineer</h4>
+        <h4> Software Engineer | AI/ML Engineer </h4>
       </div>
       <div className="navbar__menu">
         <ul>
@@ -42,7 +42,7 @@ function Hero() {
     <div className="bio animate__animated animate__shakeX">
       <h2 className="bio-title">About Me</h2>
       <p className="bio-text">
-        Software Engineer experienced at all stages of the software development lifecycle.
+        Software Engineer experienced at all stages of the software development lifecycle, specialising in AI/ML solutions.
       </p>
     </div>
   </section>;
@@ -54,22 +54,16 @@ function About() {
     <p>
       I aim to create software that is easy to use, efficient, and
       maintainable. I am passionate about learning new technologies and
-      applying them to real world problems.
+      applying them to real-world problems.
     </p>
     <p>
-      Born in Scotland and raised in New Zealand, I moved to Wellington to study Software Engineering at Victoria
-      University of Wellington, specializing in Artificial Intelligence and Machine Learning.
-      I graduated in 2022 with a Bachelor of Engineering with Honours, first class. I am currently working as a
-      Software Engineer at
-      <a href="https://www.nzx.com/" target="_blank" rel="noreferrer"> NZX</a> implementing automated testing and continuous
-      integration, as well as re-architecting many of the company's legacy systems.
+      Graduating in 2023 from Victoria University of Wellington with A Bachelor of Honours in Software Engineering, first class and specializing in Artificial Intelligence and Machine Learning, I am currently working as 
+      a Machine Learning Engineer at <a href="https://www.stayinfront.com/" target="_blank" rel="noreferrer"> StayinFront</a> researching and developing new AI and Machine Learning solutions to problems in the Consumer Goods Industry,
+      such as Packaging Recognition and Sales optimisation. 
     </p>
     <p>
-      While recently graduated, I am far from finished learning. I am currently studying for my AWS Certified
-      Solutions Architect Associate certification, and am looking to further my knowledge in DevOps and Machine
-      Learning.
-      I am also working on publishing my paper on the use of Evolutionary Machine Learning in the field of Community
-      Detection.
+      While recently graduated, I am far from finished learning and aim to incorporate new and interesting technologies into my projects outside of work, for example, I am currently working on a project that involves Natural Language Processing, Scheduling, and Cloud Based technologies.
+      I am also working on publishing my paper on the use of Evolutionary Machine Learning in the field of Community Detection.
     </p>
 
   </section>;
@@ -277,12 +271,28 @@ function Work() {
         />
         <h3 className="project-title">NZX</h3>
         <p className="project-details">
-          Over the last year, moving from an Intern role to a Part time role and currently in my capacity as a full time Software Engineer, I have worked on many different projects across their distributed systems, a few of these include:
-          1. Development and Deployment of an Automated Testing Framework across their environments
-          2. Upgrading and rearchitecting of many of their legacy systems
+        Starting in 2021 as an Intern and working my way up to permanent Software Engineer, I was involved in many different projects across their distributed systems, a few of these include: <br />
+          1. Development and Deployment of an Automated Testing Framework across their environments <br />
+          2. Upgrading and rearchitecting of many of their legacy systems <br />
           3. Automated Deployment pipelines using Ansible and Github Actions.
         </p>
         <h4 className="project-title">Software Engineer</h4>
+      </div>
+        </a>
+        <a href="https://www.stayinfront.com/" target="_blank" rel="noreferrer">
+      <div className="project-container project-card">
+        <img
+          src="images/Stayinfront.jpg"
+          alt="Stayinfront"
+          loading="lazy"
+          className="project-pic"
+        />
+        <h3 className="project-title">StayInFront</h3>
+        <p className="project-details">
+        Joining the R&D department as a Machine Learning Engineer in mid 2023 I have worked across all AI/ML projects relating to Image Recognition with CNN's to more traditional ML methods for clustering and decision making on large datasets. <br/>
+        As a member of the R&D team it was my job to research the feasibility of a project, possible approaches, and then work with the Development team implement the solution and hand over to QA a fully documented product. 
+        </p>
+        <h4 className="project-title">Machine Learning Engineer</h4>
       </div>
         </a>
     </div>
@@ -310,7 +320,7 @@ function Socials() {
       <img src="icons/icons8-gmail.gif" alt="Mail" className="socicon" />
     </a>
 
-    <a href="reports/Joe_Hodges_2023.pdf" target="_blank" rel="noreferrer">
+    <a href="reports/Joe_Hodges_2024.pdf" target="_blank" rel="noreferrer">
       <img src="icons/icons8-life-cycle.gif" alt="CV" className="socicon" />
     </a>
 
