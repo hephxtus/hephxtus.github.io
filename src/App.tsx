@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar__logo">
         <h1><a href="index.html">Joseph Hodges</a></h1>
-        <h4> Software Engineer | Ai/ML Engineer </h4>
+        <h4> Software Engineer | AI/ML Engineer </h4>
       </div>
       <div className="navbar__menu">
         <ul>
@@ -42,7 +42,7 @@ function Hero() {
     <div className="bio animate__animated animate__shakeX">
       <h2 className="bio-title">About Me</h2>
       <p className="bio-text">
-        Software Engineer experienced at all stages of the software development lifecycle.
+        Software Engineer experienced at all stages of the software development lifecycle, specialising in AI/ML solutions.
       </p>
     </div>
   </section>;
@@ -57,19 +57,13 @@ function About() {
       applying them to real world problems.
     </p>
     <p>
-      Born in Scotland and raised in New Zealand, I moved to Wellington to study Software Engineering at Victoria
-      University of Wellington, specializing in Artificial Intelligence and Machine Learning.
-      I graduated in 2022 with a Bachelor of Engineering with Honours, first class. I am currently working as a
-      Software Engineer at
-      <a href="https://www.nzx.com/" target="_blank" rel="noreferrer"> NZX</a> implementing automated testing and continuous
-      integration, as well as re-architecting many of the company's legacy systems.
+      Graduating in 2023 from Victoria University of Wellington with A Bachelor of Honours in Software Engineering, first class and specializing in Artificial Intelligence and Machine Learning, I am currently working as 
+      a Machine Learning Engineer at <a href="https://www.stayinfront.com/" target="_blank" rel="noreferrer"> StayinFront</a> researching and developing new AI and Machine Learning solutions to problems in the Consumer Goods Industry,
+      such as Packaging Recognition and Sales optimisation. 
     </p>
     <p>
-      While recently graduated, I am far from finished learning. I am currently studying for my AWS Certified
-      Solutions Architect Associate certification, and am looking to further my knowledge in DevOps and Machine
-      Learning.
-      I am also working on publishing my paper on the use of Evolutionary Machine Learning in the field of Community
-      Detection.
+      While recently graduated, I am far from finished learning, and try to incorporate this into my projects outside of work, for example I am currently working on a project that involves Natural Language Processing, Schedulin and Cloud Based technologies.
+      I am also working on publishing my paper on the use of Evolutionary Machine Learning in the field of Community Detection.
     </p>
 
   </section>;
